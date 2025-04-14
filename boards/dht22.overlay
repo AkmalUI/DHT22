@@ -1,0 +1,8 @@
+&gpiog {
+    dht1: dht22 {
+        compatible = "aosong,dht";
+        dio-gpios = <&gpiog 7 (GPIO_ACTIVE_LOW)>;
+        dht22;
+        status = "okay";
+    };
+};
